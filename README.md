@@ -2,10 +2,10 @@
 
 Domain-Invariant Representation Learning (DIRL) is a novel algorithm that semantically aligns both the marginal and the conditional distributions across source and target enviroments. For more details, please visit the [DIRL webpage](https://www.sites.google.com/view/dirl)
 
-![source_only](.docs/source_only_labeled.gif)
-![DANN_MA_CLM](.docs/dann_negative_transfer_labeled.gif)
-![DANN_MA_LS](.docs/dann_label_shift_labeled.gif)
-![DIRL](.docs/dirl_ma_ca_labeled.gif)
+![source_only](./docs/source_only_labeled.gif)
+![DANN_MA_CLM](./docs/dann_negative_transfer_labeled.gif)
+![DANN_MA_LS](./docs/dann_label_shift_labeled.gif)
+![DIRL](./docs/dirl_ma_ca_labeled.gif)
 
 ## Getting Started
 Follow the instructions to get started after cloning the repository (tested with python3, Ubuntu 16.04, cuda 9.0):
