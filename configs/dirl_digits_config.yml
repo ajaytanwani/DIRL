@@ -1,0 +1,22 @@
+dataset:
+  input_dim: 28
+  num_classes: 10
+  datasets_directory: 'resources'
+
+model:
+  embedding_size: 128
+  l2_regularizer_weight: 0.0001
+  input_normalize: True
+  test_size: 5000
+  tsne_test_size: 500
+  k_neighbours: 5
+  num_iterations: 10000
+
+loss:
+  domain_weight: 1.0
+  classify_weight: 1.0
+  triplet_weight: 1.0
+  triplet_margin: 0.7
+  triplet_KL_weight: 1.0
+  triplet_KL_margin: 0.6
+  class_dann_weight: 1.0
