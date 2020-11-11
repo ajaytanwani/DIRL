@@ -1,1 +1,14 @@
+imageio==2.6.1
+matplotlib==2.2.2
+numpy==1.18.1
+opencv-python==4.1.2.30
+pandas==0.24.2
+PyYAML==5.3
+scikit-image==0.15.0
+scikit-learn==0.22.1
+scipy==1.2.1
+seaborn==0.8.1
+sklearn==0.0
 tensorflow==1.11.0
+tensorflow-gpu==1.11.0
+tensorboard==1.11.0
