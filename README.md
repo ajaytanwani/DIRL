@@ -5,11 +5,9 @@ Domain-Invariant Representation Learning (DIRL) is a novel algorithm that semant
 [//]: <> 'cite a figure in HTML style'
 <p align="center">
  <img src="docs/source_only.gif" alt="Source Only"/>
-    <br>
-    <b>conventional supervised learning on labeled source data</b>
+    <em>conventional supervised learning on labeled source data</em>
  <img src="docs/dann_negative_transfer.gif" alt="Marginal Alignment Cross Label Match"/>
-    <br>
-    <strong>marginal alignment: cross-label mismatch with negative transfer</strong> 
+    <em>marginal alignment: cross-label mismatch with negative transfer</em> 
 </p>
 
 [//]: <> 'cite a figure in HTML style'
