@@ -25,18 +25,6 @@ from sklearn.metrics import accuracy_score, silhouette_score, normalized_mutual_
 tf.logging.set_verbosity(tf.logging.INFO)
 
 
-# flags = tf.app.flags
-# flags.DEFINE_string('dataset_name', '', 'Name of the dataset.')
-# flags.DEFINE_string('train_config_path', '', 'path to the config file.')
-# flags.DEFINE_string('split_name', '', 'train or test or validation split of the dataset.')
-# flags.DEFINE_string('model_name', '', 'Name of the model to train the algorithm.')
-# flags.DEFINE_string('train_dir', '',
-#                     'Directory to save the checkpoints and training summaries.')
-# flags.DEFINE_string('train_tfrecord_path', '',
-#                     'path to the tf record of the training dataset.')
-# flags.DEFINE_string('test_tfrecord_path', '',
-#                     'path to the tf record of the testing dataset.')
-
 def digitsNet(x_in, config, l_value, l_value2):
 
     l2_weight = config.model.l2_regularizer_weight
@@ -373,8 +361,10 @@ if __name__ == "__main__":
 
             ab = sess.run([source_accuracy_fin, target_accuracy_fin],
                           feed_dict={x: combined_test_imgs, y: combined_test_labels, domain: combined_test_domain})
-            print(ab, sess.run([m_shape_ratio, tf.shape(masked_domain_source)[0], tf.shape(masked_domain_target_l)[0]],
-                               feed_dict={x: batch_xs, y: batch_ys, domain: domain_labels}), max_test_run)
+            print(sess.run([m_shape_ratio, tf.shape(masked_domain_source)[0], tf.shape(masked_domain_target_l)[0]],
+                               feed_dict={x: batch_xs, y: batch_ys, domain: domain_labels}))
+            print('Source Acc: {:.3f}, \t Target Acc: {:.3f}, \t Max Target Acc: {:.3f}'.format(ab[0], ab[1], max_test_run))
+
 
     if opts.save_results:
     # plot loss functions
