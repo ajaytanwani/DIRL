@@ -52,8 +52,7 @@ Vary the `-source` and `-target` options among `[mnist, mnistm, svhn, usps]`.
 ## Cite DIRL
 
 ```bibtex
-@inproceedings{
-    Tanwani_DIRL_CORL_20,
+@inproceedings{Tanwani_DIRL_CORL_20,
     title={Domain Invariant Representation Learning for Sim-to-Real Transfer},
     author={Ajay Kumar Tanwani},
     booktitle={Proceedings of the 4th Conference on Robot Learning},
