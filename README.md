@@ -38,6 +38,7 @@ Vary the number of target examples `num_target_examples` and `-mode` among `[sou
 
 ### Digits Bechmarks 
 
+First, download the digits datasets (required only once) in the `resources` folder by executing the script: `python src/download_digits_datasets.py`
 ```
 CUDA_VISIBLE_DEVICES=1 python src/train_digits.py -mode dirl -source mnist -target mnistm -num_target_labels 10 -save_results True
 ```
