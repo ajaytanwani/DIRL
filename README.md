@@ -2,7 +2,11 @@
 
 Domain-Invariant Representation Learning (DIRL) is a novel algorithm that semantically aligns both the marginal and the conditional distributions across source and target enviroments. For more details, please visit the [DIRL webpage](https://www.sites.google.com/view/dirl)
 
-|![sim_declutter](./docs/sim_dirl.gif) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :arrow_right: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |![real_declutter](./docs/real_dirl.gif)|
+<p align="middle">
+  <img src="/docs/sim_dirl.png" width="100" />
+  <img src="/docs/arrow_dirl.png" width="10" /> 
+  <img src="/docs/real_dirl.png" width="100" />
+</p>
 
 ![dann_conceptual](./docs/all_gifs_dirl_labeled.gif)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Source Only](./docs/source_only.gif)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Marginal Alignment Cross-Label Mismatch](./docs/dann_negative_transfer.gif)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Marginal Alignment Label Shift](./docs/dann_label_shift.gif)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[DIRL](./docs/dirl_ma_ca_triplet.gif)]
