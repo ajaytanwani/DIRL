@@ -29,7 +29,7 @@ Below we provide a couple of examples to illustrate the efficiency of the DIRL a
 ### 2D Synthetic Domain
 
 ```
-CUDA_VISIBLE_DEVICES=0 python src/train_synthetic_2d.py -model dirl -num_target_labels 8 
+CUDA_VISIBLE_DEVICES=0 python src/train_synthetic_2d.py -mode dirl -num_target_labels 4 
 ```
 
 Results are saved in the `results` folder with respective `.yml` config, `results/figs` and `results/animations` folder.

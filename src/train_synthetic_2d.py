@@ -476,10 +476,10 @@ if __name__ == "__main__":
 
             if save_gif_images and i % display_step == 0:
                 plot_utils.overall_figure(sess, S_logit, G_logit, S_prob, X_source_test, Y_source_test, X_target_test,
-                                          Y_target_test, logdir + '/animations/' + output_name + str(
+                                          Y_target_test, logdir + '/animations/' + output_name + '_' + str(
                         trial_num) + '_' + str(i), x_input, X_labeled_target, Y_labeled_target, iter_count=i,
                                           save_gif_images=save_gif_images)
-                image_handle = imageio.imread(logdir + '/animations/' + output_name + str(trial_num) + '_' + str(i) + '.png')
+                image_handle = imageio.imread(logdir + '/animations/' + output_name + '_' + str(trial_num) + '_' + str(i) + '.png')
                 if i == num_iterations:
                     gif_images_list.extend([image_handle] * 5)
                 else:
