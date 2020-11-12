@@ -12,7 +12,7 @@ Domain-Invariant Representation Learning (DIRL) is a novel algorithm that semant
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Source Only](./docs/source_only.gif)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Marginal Alignment Cross-Label Mismatch](./docs/dann_negative_transfer.gif)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Marginal Alignment Label Shift](./docs/dann_label_shift.gif)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[DIRL](./docs/dirl_ma_ca_triplet.gif)]
 
 ## Getting Started
-Follow the instructions to get started after cloning the repository (tested with python3, Ubuntu 16.04, cuda 9.0):
+Follow the instructions to get started after cloning the repository (tested with python3):
 
 ```
 virtualenv --python=/usr/bin/python3 env_dirl
