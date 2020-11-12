@@ -4,19 +4,9 @@ Domain-Invariant Representation Learning (DIRL) is a novel algorithm that semant
 
 <p align="middle">
   <img src="./docs/sim_dirl.gif" width="303" height="224"/>
-  <img src="./docs/arrow_dirl.png" width="80" height="150"/> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./docs/arrow_dirl.png" width="60" height="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
   <img src="./docs/real_dirl.gif" width="360" height="224"/>
 </p>
-
-
-<table>
-  <tr>
-    <td><img src="./docs/sim_dirl.gif" width=303 height=224></td>
-    <td><img src="./docs/arrow_dirl.png" width=60 height=224></td>
-    <td><img src="./docs/real_dirl.gif" width=360 height=224></td>
-  </tr>
-</table>
- 
  
 ![dann_conceptual](./docs/all_gifs_dirl_labeled.gif)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Source Only](./docs/source_only.gif)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Marginal Alignment Cross-Label Mismatch](./docs/dann_negative_transfer.gif)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Marginal Alignment Label Shift](./docs/dann_label_shift.gif)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[DIRL](./docs/dirl_ma_ca_triplet.gif)]
