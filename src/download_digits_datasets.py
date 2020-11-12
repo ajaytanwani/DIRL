@@ -1,9 +1,7 @@
 """Downloads digits datasets from the URL in the resources folder."""
 
 import os
-import requests, zipfile, io
-from urllib.request import urlopen
-import wget
+import zipfile
 
 DIGITS_DATASETS_URL = "https://www.dropbox.com/s/awr6ocrtfo00ffn/digits_datasets.zip"
 
