@@ -1,6 +1,6 @@
 # DIRL: Domain-Invariant Representation Learning
 
-Domain-Invariant Representation Learning (DIRL) is a novel algorithm that semantically aligns both the marginal and the conditional distributions across source and target enviroments. For more details, please visit the [DIRL webpage](https://www.sites.google.com/view/dirl)
+Domain-Invariant Representation Learning (DIRL) is a novel algorithm that semantically aligns both the marginal and the conditional distributions across source and target enviroments. For more details, please visit: [https://www.sites.google.com/view/dirl](https://www.sites.google.com/view/dirl)
 
 <p align="middle">
   <img src="./docs/sim_dirl.gif" width="303" height="224"/>
@@ -49,5 +49,15 @@ Vary the `-source` and `-target` options among `[mnist, mnistm, svhn, usps]`.
 `-mode` and `-num_target_labels` can be changed similarly as above.
 
 
+## Cite DIRL
 
+```bibtex
+@inproceedings{
+    Tanwani_DIRL_CORL_20,
+    title={Domain Invariant Representation Learning for Sim-to-Real Transfer},
+    author={Ajay Kumar Tanwani},
+    booktitle={Proceedings of the 4th Conference on Robot Learning},
+    year={2020}
+}
+```
 
